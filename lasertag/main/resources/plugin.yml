@@ -1,0 +1,36 @@
+name: untitled
+version: '${project.version}'
+main: untitled.untitled.Untitled
+api-version: '1.18'
+commands:
+  fly:
+    description: Toggles fly for specified user
+    usage: /fly
+    aliases: [f, togglefly]
+    permission: fly
+  menu:
+    description: Opens server selector
+    usage: /menu
+    aliases: play
+  tntgun:
+    description: Gives target player a lasergun
+    usage: /tntgun
+    aliases: tnt
+    permission: tnt
+  icegun:
+    description: Gives player an icegun
+    usage: /icegun
+    aliases: ice
+    permission: ice
+  joingame:
+    description: joins current lasertag game
+    usage: /joingame
+    aliases: join
+  leavegame:
+    description: leaves current lasertag game
+    usage: /leavegame
+    aliases: leave
+  startgame:
+    description: starts a lasertag game
+    usage: /startgame
+    aliases: start
